@@ -83,7 +83,6 @@ body{
     text-align: center;
     color: hsl(217, 12%, 63%);
     cursor: pointer;
-    transition: all .5s ease-in-out;
 }
 
 .home .main .content span:not(:last-of-type){
@@ -94,6 +93,7 @@ body{
 .home .main .content span:hover{
     background-color: hsl(25, 97%, 53%);
     color: papayawhip;
+    transition: all .5s ease-in-out;
 }
 
 
@@ -158,8 +158,8 @@ body{
     }
     
     .home .main .content span{
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
     
 
